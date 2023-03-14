@@ -1,0 +1,53 @@
+body{
+    background-color: pink;
+    text-align: center;
+}
+nav{
+    word-spacing: 30px;
+    background-color: rgb(144, 144, 144);
+}
+nav>a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+.imghome{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#gallerydiv{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gallery {
+    margin-left: 17%;
+    line-height:0;
+    -webkit-column-count:5; /* split it into 5 columns */
+    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -moz-column-count:5;
+    -moz-column-gap:5px;
+    column-count:5;
+    column-gap:5px;
+ }
+
+#gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px;
+ }
